@@ -15,7 +15,24 @@
 . . . . f f . . . f f . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`</field></shadow></value><value name="kind"><shadow type="spritekind" id="^`LPVSCM7joMshm/pg^S"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block><block type="gameupdate" id="iw@r^([DsyiMHR-EPf|," x="0" y="200"><statement name="HANDLER"><block type="game_control_sprite" id="4I6cF}H#4f*}2)=@?Lgl"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="):-fN|00R+S)wu:k4=2#"><field name="VAR" id="-fmB{[{bMpez*f.ei2[F">mySprite</field></block></value><next><block type="controls_if" id="H2(i4Z(J?3:C]_H+Qgth"><value name="IF0"><shadow type="logic_boolean" id="9p.dd!8u)L%;P%!.1gpX"><field name="BOOL">TRUE</field></shadow></value></block></next></block></statement></block><block type="gameinterval" id="8BT.9D(G3uGE}mVf13(d" x="0" y="440"><value name="period"><shadow type="timePicker" id="vz?wMqP}55V6;([j=0#9"><field name="ms">5000</field></shadow></value><statement name="HANDLER"><block type="variables_set" id="YqT=,.]4j[.HA=L0o+kz"><field name="VAR" id="s$Q40=7^pWwoLwm8o0%8">projectile</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromside" id="CXn5nAK`w,Ucl6J)(AH/"><value name="img"><shadow type="screen_image_picker" id="4TZ80`oC~n+AvTC8#P_z"><field name="img">img`
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="^`LPVSCM7joMshm/pg^S"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="OP[mV%EH%,6[xJYh^!7!"><field name="VAR" id="s$Q40=7^pWwoLwm8o0%8">projectile</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromside" id="~Gq8n9%BsqGiU[m;X|gU"><value name="img"><shadow type="screen_image_picker" id="aMkGkr]+J:*/n@G2:Xc;"><field name="img">img`
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . . . . b c . . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. . . . b b 5 d 1 f 5 5 d f . . 
+. . . . b 5 5 1 f f 5 d 4 c . . 
+. . . . b 5 5 d f b d d 4 4 . . 
+b d d d b b d 5 5 5 4 4 4 4 4 b 
+b b d 5 5 5 b 5 5 4 4 4 4 4 b . 
+b d c 5 5 5 5 d 5 5 5 5 5 b . . 
+c d d c d 5 5 b 5 5 5 5 5 5 b . 
+c b d d c c b 5 5 5 5 5 5 5 b . 
+. c d d d d d d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field></shadow></value><value name="vx"><shadow type="spriteSpeedPicker" id="SqXlf+YeVYW;V_3D)qRa"><field name="speed">50</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="2Am}P_y4FdNMjdi)Tpv)"><field name="speed">50</field></shadow></value></block></value></block></next></block></next></block></statement></block><block type="gameupdate" id="iw@r^([DsyiMHR-EPf|," x="10" y="270"><statement name="HANDLER"><block type="game_control_sprite" id="4I6cF}H#4f*}2)=@?Lgl"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="):-fN|00R+S)wu:k4=2#"><field name="VAR" id="-fmB{[{bMpez*f.ei2[F">mySprite</field></block></value></block></statement></block><block type="gameinterval" id="8BT.9D(G3uGE}mVf13(d" x="10" y="410"><value name="period"><shadow type="timePicker" id="vz?wMqP}55V6;([j=0#9"><field name="ms">5000</field></shadow></value><statement name="HANDLER"><block type="variables_set" id="YqT=,.]4j[.HA=L0o+kz"><field name="VAR" id="s$Q40=7^pWwoLwm8o0%8">projectile</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromside" id="CXn5nAK`w,Ucl6J)(AH/"><value name="img"><shadow type="screen_image_picker" id="4TZ80`oC~n+AvTC8#P_z"><field name="img">img`
 . . . . . . . . . . b 5 b . . . 
 . . . . . . . . . b 5 b . . . . 
 . . . . . . . . . b c . . . . . 
